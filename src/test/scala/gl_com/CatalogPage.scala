@@ -24,7 +24,7 @@ object CatalogPage {
           .get("${url}")
           .check(status.is(200)))
         .pause( TpsPause seconds)
-    } //.repeat
+    }
 
 
 }
